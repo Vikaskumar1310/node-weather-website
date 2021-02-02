@@ -24,7 +24,7 @@ hbs.registerPartials(partialPath);
 app.get('', (req, res) => {
     res.render('index', {
         title: 'Weather',
-        name: 'Vikas'
+        name: 'Vikas Kumar'
     })
 });
 
@@ -37,9 +37,9 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        helptext: 'Hello if you need any help please contact on the 9998889991 number. Thanks!',
+        helptext: 'Hello if you need any help please contact on the 123456789 number. Thanks!',
         title: 'Help',
-        name: 'vikas'
+        name: 'Vikas kumar'
     });
 })
 
